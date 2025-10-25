@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mft</title>
+    <link rel="icon" href="images/download.png">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body class="z-0 relative">
+    <!-- start-navigeshen-sm -->
+    <div class="parent-navi border-1 border-gray-300">
+        <div class="navi flex justify-between
+            items-center mb-6 lg:hidden">
+            <div class="text_nav bg-blue-50 rounded-4xl flex justify-center-safe items-center mx-3 my-2">
+                <a href="#"><i class="bi bi-search search_js text-lg text-blue-400   "></i></a>
+            </div>
+            <a href="#"><img class="img_nav mx-3 my-2 " src="images/mftlogo.png" alt=""></a>
+            <div class="text_nav bg-blue-50 rounded-4xl flex justify-center-safe items-center mx-3 my-2 open_list_js">
+                <a href="#"><i class="bi bi-list text-xl text-blue-400  "></i></a>
+            </div>
+        </div>
+        <!-- strat-js-list -->
+        <div class="list_js  lg:hidden z-1002  hidden ">
+            <div class="w-full flex flex-col bg-white">
+                <div class="w-full flex justify-end">
+                    <div
+                        class="text_nav bg-red-50 rounded-4xl flex justify-center-safe items-center mx-3 mt-2 lg:mt-10 end_nav ">
+                        <i class="bi bi-x-lg  text-xl text-red-400 font-bold "></i>
+                    </div>
+                </div>
+                <div class="flex mt-1 px-4 text-right">
+                    <div class="flex w-70 bg-gray-200  m-1 p-3 rounded-lg text-right ">
+                        <p class="pr-1"> پنل اساتید </p>
+                        <i class="bi bi-person-fill text-lg text-gray-400"></i>
+                    </div>
+                    <div class="flex w-70 bg-gray-200  m-1 p-3 rounded-lg text-right ">
+                        <p class="pr-1"> پنل دانشپذیر </p>
+                        <i class="bi bi-person-fill text-lg text-gray-400"></i>
+                    </div>
+                </div>
+                <div class="px-3">
+                    <ul>
+                        <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                            <i class="bi bi-chevron-left text-lg text-gray-400"></i>
+                            <p class="text-lg text-gray-400 "> دپارتمان ها </p>
+                        </li>
+                        <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                            <i class="bi bi-chevron-left text-lg text-gray-400"></i>
+                            <p class="text-lg text-gray-400 "> مراکز </p>
+                        </li>
+                        <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                            <i class="bi bi-chevron-left text-lg text-gray-400"></i>
+                            <p class="text-lg text-gray-400 "> تقویم آموزشی </p>
+                        </li>
+                        <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                            <i class="bi bi-chevron-left text-lg text-gray-400"></i>
+                            <p class="text-lg text-gray-400 "> خدمات آموزشی </p>
+                        </li>
+
+                        <div class="pr-8">
+                            <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                                <i class="bi bi-chevron-left text-gray-400"></i>
+                                <p class=" text-gray-400 "> اموربین الملل </p>
+                            </li>
+                            <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                                <i class="bi bi-chevron-left text-gray-400"></i>
+                                <p class=" text-gray-400 "> آموزشهای سازمانی </p>
+                            </li>
+                            <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                                <i class="bi bi-chevron-left text-gray-400"></i>
+                                <p class=" text-gray-400 "> کاریابی الکترونیکی (کارتلنت) </p>
+                            </li>
+
+                        </div>
+
+                        <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                            <i class="bi bi-chevron-left text-lg text-gray-400"></i>
+                            <p class="text-lg text-gray-400 "> امور نمایندگی ها </p>
+                        </li>
+                        <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                            <i class="bi bi-chevron-left text-lg text-gray-400"></i>
+                            <p class="text-lg text-gray-400 "> روابط عمومی </p>
+                        </li>
+
+                        <div class="pr-8">
+                            <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                                <i class="bi bi-chevron-left text-gray-400"></i>
+                                <p class=" text-gray-400 "> آوا و نوای مجتمع فنی تهران(کتب صوتی) </p>
+                            </li>
+                            <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                                <i class="bi bi-chevron-left text-gray-400"></i>
+                                <p class=" text-gray-400 "> اخبار </p>
+                            </li>
+                            <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                                <i class="bi bi-chevron-left text-gray-400"></i>
+                                <p class=" text-gray-400 "> مقالات </p>
+                            </li>
+                            <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                                <i class="bi bi-chevron-left text-gray-400"></i>
+                                <p class=" text-gray-400 "> خبرنامه </p>
+                            </li>
+
+                            <div class="pr-8">
+                                <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                                    <i class="bi bi-chevron-left text-gray-400"></i>
+                                    <p class=" text-gray-400 "> خبرنامه الکترونیکی 1401 </p>
+                                </li>
+                                <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                                    <i class="bi bi-chevron-left text-gray-400"></i>
+                                    <p class=" text-gray-400 "> خبرنامه الکترونیکی 1402 </p>
+                                </li>
+                                <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                                    <i class="bi bi-chevron-left text-gray-400"></i>
+                                    <p class=" text-gray-400 "> خبرنامه الکترونیکی 1403 </p>
+                                </li>
+                                <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                                    <i class="bi bi-chevron-left text-gray-400"></i>
+                                    <p class=" text-gray-400 font-thin"> خبرنامه الکترونیکی 1404 </p>
+                                </li>
+
+                            </div>
+
+                            <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                                <i class="bi bi-chevron-left text-gray-400"></i>
+                                <p class=" text-gray-400 "> مسئولیت های اجتماعی(CSR) </p>
+                            </li>
+                            <li class="flex justify-between w-full px-2 py-3 border-b-1 border-gray-400">
+                                <i class="bi bi-chevron-left text-gray-400"></i>
+                                <p class=" text-gray-400 "> دفترچه دیجیتال معرفی فعالیت های مجتمع فنی تهران </p>
+                            </li>
+
+                        </div>
+
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- end-js-list -->
+
+        <!-- strat-js-search -->
+        <div class=" searchtype_js z-1 flex flex-col  items-center hidden ">
+            <div class="xl:w-175 w-full flex justify-end items-center">
+                <div
+                    class="text_nav bg-blue-50 rounded-4xl flex justify-center-safe items-center mx-3 my-2 lg:mt-10 end_nav">
+                    <i class="bi bi-x-lg  text-xl text-blue-400 "></i>
+                </div>
+            </div>
+            <div class="xl:w-170 w-full flex justify-end items-center">
+                <p class=" my-3 "> جستجو </p>
+            </div>
+            <input type="search" name="&#xF52A;" id="&#xF52A;" class="search_in bg-withe-50 rounded-4xl shadow-xl/30  ">
+        </div>
+        <!-- end-js-search -->
+
+        <!-- end-navigeshen-sm -->
+
+        <!-- start-navigeshen-lg -->
+        <div class="navi hidden lg:flex justify-between
+         items-center mb-6 ">
+            <div class="flex justify-between
+         items-center">
+                <a href="#">
+                    <i class="bi bi-caret-down-fill text-lg text-blue-400 ml-9 my-2 js_nav"></i></a>
+                <a href="#" class="js_nav">
+                    <p class=" text-sm text-gray-800 mx-3 my-2 js_nav"> حساب کاربری </p>
+                </a>
+                <div
+                    class="text_nav bg-blue-50 rounded-4xl flex justify-center-safe items-center mx-3 my-2 relative js_nav ">
+                    <a href="#" class="js_nav"><i class="bi bi-person-fill text-lg text-blue-400 "></i>
+                    </a>
+                    <!-- start-js-hesob -->
+                    <div class="absolute  w-80 mt-50 ml-65 ul_js_nav hidden ">
+                        <ul class="bg-white inset-shadow-2xs rounded-xl  ">
+                            <li class=" p-3 px-3 ">&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                            <a href="#">
+                                <li class="flex justify-between
+        items-center bg-withe-500 p-3 px-3 ">
+                                    <i class="bi bi-chevron-left text-lg text-gray-400 pl-3"></i>
+                                    <p class="ml-15 text-gray-500 font-bold"> ورود حساب دانشپذیر </p>
+                                    <i class="bi bi-person-fill text-lg text-gray-400 pr-5"></i>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li class="flex justify-between
+    items-center bg-withe-500 p-3 px-3 ">
+                                    <i class="bi bi-chevron-left text-lg text-gray-400 pl-3"></i>
+                                    <p class="ml-15 text-gray-500 font-bold"> ورود حساب دانشپذیر </p>
+                                    <i class="bi bi-person-fill text-lg text-gray-400 pr-5"></i>
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+                    <!-- end-js-hesob -->
+                </div>
+                <div
+                    class="text_nav search_jsA  bg-blue-50 rounded-4xl flex justify-center-safe items-center mx-3 my-2">
+                    <a href="#"><i class="bi bi-search  text-lg text-blue-400   "></i></a>
+                </div>
+            </div>
+            <div class="flex justify-between
+items-center ">
+                <div class="sub_d">
+                    <a href="#" class="text_nav_a sub_nav flex justify-center-safe
+    items-center">
+                        <p class="text_dasteh text-gray-500 text-sm mx-3 my-2"> روابط عمومی </p>
+                    </a>
+                    <ul class="ul_sub  absolute hidden z-1000 shadow-xl/30">
+                        <li class="li_sub flex justify-center-safe items-center "><a href="#"
+                                class="a_sub p-1 flex justify-end items-end"> آوا و نوای مجتمع فنی تهران(کتب صوتی) </a>
+                        </li>
+                        <li class="li_sub flex justify-center-safe items-center "><a href="#"
+                                class="a_sub p-1 flex justify-end items-end"> اخبار </a></li>
+                        <li class="li_sub flex justify-center-safe items-center "><a href="#"
+                                class="a_sub p-1 flex justify-end items-end">
+                                مقالات
+                            </a></li>
+                        <li class="li_sub li_sub_sub relative flex justify-center-safe items-center "><a href="#"
+                                class="a_sub p-1 flex justify-end items-end relative "> خبرنامه </a>
+                            <ul class="hidden absolute li_ul_sub mt-42 mr-90 z-1001">
+                                <li class="li_sub  flex justify-center-safe items-center "><a href="#"
+                                        class="a_sub p-1 flex justify-end items-end"> خبرنامه الکترونیکی 1401 </a></li>
+                                <li class="li_sub  flex justify-center-safe items-center "><a href="#"
+                                        class="a_sub p-1 flex justify-end items-end"> خبرنامه الکترونیکی 1402 </a></li>
+                                <li class="li_sub  flex justify-center-safe items-center "><a href="#"
+                                        class="a_sub p-1 flex justify-end items-end"> خبرنامه الکترونیکی 1403 </a></li>
+                                <li class="li_sub  flex justify-center-safe items-center "><a href="#"
+                                        class="a_sub p-1 flex justify-end items-end"> خبرنامه الکترونیکی 1404 </a></li>
+                            </ul>
+
+                        </li>
+                        <li class="li_sub flex justify-center-safe items-center "><a href="#"
+                                class="a_sub p-1 flex justify-end items-end"> مسئولیت های اجتماعی(CSR) </a></li>
+                        <li class="li_sub flex justify-center-safe items-center "><a href="#"
+                                class="a_sub p-1 flex justify-end items-end"> دفترچه دیجیتال معرفی فعالیت های مجتمع فنی
+                                تهران
+                            </a></li>
+                    </ul>
+                </div>
+                <a href="#" class="text_nav_a flex justify-center-safe
+                                    items-center">
+                    <p class="text_dasteh text-gray-500 text-sm mx-3 my-2"> امور نمایندگی ها </p>
+                </a>
+                <div class="sub_d">
+                    <a href="#" class="text_nav_a sub_nav flex
+                                    justify-center-safe items-center ">
+                        <p class="text_dasteh text-gray-500 text-sm mx-3 my-2"> خدمات آموزشی </p>
+                    </a>
+                    <ul class=" ul_sub  absolute hidden z-1000 shadow-xl/30 ">
+                        <li class="li_sub flex justify-center-safe items-center"><a href="#"
+                                class="a_sub p-1 flex justify-end items-end">
+                                اموربین الملل
+
+                            </a></li>
+                        <li class="li_sub flex justify-center-safe items-center"><a href="#"
+                                class="a_sub p-1 flex justify-end items-end"> آموزشهای سازمانی </a></li>
+                        <li class="li_sub flex justify-center-safe items-center"><a href="#"
+                                class="a_sub p-1 flex justify-end items-end">
+                                کاریابی الکترونیکی (کارتلنت)
+                            </a></li>
+                    </ul>
+                </div>
+                <a href="#" class="text_nav_a flex justify-center-safe
+                        items-center ">
+                    <p class="text_dasteh text-gray-500 text-sm mx-3 my-2"> تقویم آموزشی </p>
+                </a>
+                <a href="#" class="text_nav_a flex justify-center-safe
+                    items-center">
+                    <p class="text_dasteh text-gray-500 text-sm mx-3 my-2"> مراکز </p>
+                </a>
+                <a href="#" class="text_nav_a flex justify-center-safe
+                items-center">
+                    <p class="text_dasteh text-gray-500 text-sm mx-3 my-2"> دپارتمان ها </p>
+                </a>
+                <a href="#"><img class="img_nav mx-3 my-2" src="images/mftlogo.png" alt=""></a>
+            </div>
+        </div>
+        <!-- end-navigeshen-lg -->
+    </div>
+    <div class="parent w-full">
+
+        <!-- start-text-zir-navi-sm -->
+        <div class="w-full lg:flex lg:justify-between lg:p-20 lg:pb-0 z-0 h-[550px]">
+            <div class="flex flex-col
+            items-center lg:hidden">
+                <p class="mt-3 p-3 text-center text-[17px] font-bold">
+
+                    مجتمع فنی تهران، پیشرو در حوزه مهارت آموزی و توسعه
+                    اشتغال مولد
+
+
+                </p>
+                <p class=" px-3 pt-3 text-center text-[13px] text-gray-400 ">
+
+                    مجتمع فنی تهران ماموریت خود را توسعه اشتغال و کار آفرینی از طریق آموزش های مهارت محور می داند.
+
+                </p>
+                <div class="bg-blue-700/50 rounded-4xl shadow-lg shadow-blue-500/50 hover:border-2 hover:border-white">
+                    <p class="text-[14px] py-2 px-6 text-white"> مشاهده دپارتمان ها </p>
+                </div>
+            </div>
+            <!-- end-text-zir-navi-sm -->
+
+            <!-- start-img-zir-navi -->
+            <div class="flex flex-col w-full">
+                <div class="z-0 w-full relative h-[100%] ">
+                    <div class="relative">
+                        <div class="absolute p-6 lg:p-13 z-div"><img class="img-slide rounded-[20px] ml-[-24px] -skew-1shadow-xl/30"
+                                src="images/1.jpeg" alt=""></div>
+                        <div class="z-1  absolute p-6 lg:p-13 z-div"><img
+                                class=" img-slide rounded-[20px] ml-[-15px] -skew-1shadow-xl/30" src="images/2.jpeg"
+                                alt=""></div>
+                        <div class="z-4  absolute p-6 lg:p-13 z-div"><img class=" img-slide rounded-[20px]  skew-1shadow-xl/30 lg:mt-[-6px]  mt-[-1px]"
+                                src=" images/3.jpeg" alt=""></div>
+                        <div class="z-3  absolute p-6 lg:p-13 z-div"><img class=" img-slide rounded-[20px] ml-4 skew-1shadow-xl/30"
+                                src="images/4.jpeg" alt=""></div>
+                        <div class="z-2  absolute p-6 lg:p-13 z-div"><img
+                                class="img-slide rounded-[20px] ounded-[20px] ml-6 shadow-xl/30"
+                                src="images/5.jpeg" alt=""></div>
+                    </div>
+                    <div
+                        class="absolute w-full h-[75%] lg:flex justify-center-safe z-20 items-end hidden lg:-mt-43  xl:-mt-20">
+                        <div class=" absolute flex justify-between w-[90%]">
+                            <div class="flex left-dokmeh">
+                                <i class="bi bi-chevron-left text-white  text-6xl z-1"></i>
+                                <i class="bi bi-chevron-left text-black  text-6xl z-0 -ms-14"></i>
+                            </div>
+                            <div class=" right-dokmeh">
+                                <i class="bi bi-chevron-right text-black  text-6xl z-0 -me-17"></i>
+                                <i class="bi bi-chevron-right text-white  text-6xl z-1 "></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[100%] flex flex-col">
+                    <div class="lg:hidden">&nbsp;</div>
+                    <div class="lg:hidden">&nbsp;</div>
+                    <div class="lg:hidden">&nbsp;</div>
+                    <div class="lg:hidden ">&nbsp;</div>
+                    <div class="lg:hidden ">&nbsp;</div>
+                    <div class="lg:hidden ">&nbsp;</div>
+                    <div class="lg:hidden ">&nbsp;</div>
+                    <div class="lg:hidden ">&nbsp;</div>
+                    <div class="lg:hidden ">&nbsp;</div>
+                    <div class="hidden delete lg:hidden ">&nbsp;</div>
+                    <div class="hidden delete lg:hidden ">&nbsp;</div>
+                    <div class="hidden delete lg:hidden ">&nbsp;</div>
+                    <div class="hidden delete lg:hidden ">&nbsp;</div>
+                    <div class="hidden delet delete lg:hidden ">&nbsp;</div>
+                    <div class="hidden delet delete lg:hidden ">&nbsp;</div>
+                    <div class="hidden delet delete lg:hidden ">&nbsp;</div>
+                    <div class="hidden delet delete lg:hidden ">&nbsp;</div>
+                    <div class="hidden delet delete lg:hidden ">&nbsp;</div>
+                    <div
+                        class=" lg:absolute flex justify-center-safe w-[100%] lg:w-[63.4%] lg:-mt-37 xl:-mt-11 xxl:-mt-0 ">
+                        <div class="w-[10px] h-[10px] rounded-full bg-gray-400  mx-1 docmeh"></div>
+                        <div class="w-[10px] h-[10px] rounded-full bg-gray-400  mx-1 docmeh"></div>
+                        <div class="w-[10px] h-[10px] rounded-full bg-gray-400  mx-1 docmeh"></div>
+                        <div class="w-[10px] h-[10px] rounded-full bg-gray-400  mx-1 docmeh"></div>
+                        <div class="w-[10px] h-[10px] rounded-full bg-gray-400  mx-1 docmeh"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- end-img-zir-navi -->
+
+            <!-- start-text-zir-navi-lg -->
+            <div class="hidden lg:flex flex-col
+                                items-center">
+                <p class=" p-3 pt-0 text-right text-[17px] font-bold">
+
+                    مجتمع فنی تهران، پیشرو در حوزه مهارت آموزی و توسعه
+                    اشتغال مولد
+
+
+                </p>
+                <p class=" px-3 pt-3 text-right text-[13px] text-gray-400 ">
+
+                    مجتمع فنی تهران ماموریت خود را توسعه اشتغال و کار آفرینی از طریق آموزش های مهارت محور می داند.
+
+                </p>
+                <div class="w-full flex justify-end">
+                    <div
+                        class="bg-blue-700/50 rounded-4xl shadow-lg shadow-blue-500/50 mt-6 w-[170px] flex justify-center-safe hover:border-3 border-white">
+                        <p class="text-[14px] py-2 px-6 text-white"> مشاهده دپارتمان ها </p>
+                    </div>
+                </div>
+                <div class="w-full flex justify-end">
+                    <div
+                        class=" border-2 border-blue-700/50 rounded-4xl  mt-6 mx-1 hover:bg-blue-700/60 hover:border-white ">
+                        <p class="text-[14px] py-2 px-6 text-blue-700/50 font-bold hover:text-white"> دانش سلامت
+                        </p>
+                    </div>
+
+                    <div class=" border-2 border-blue-700/50 rounded-4xl mt-6 hover:bg-blue-700/60 hover:border-white ">
+                        <p class="text-[14px] py-2 px-6 text-blue-700/50 font-bold hover:text-white"> فناوری اطلاعات
+                            و ارتباطات </p>
+                    </div>
+
+                </div>
+                <div class="w-full flex justify-end">
+                    <div
+                        class=" border-2 border-blue-700/50 rounded-4xl  mt-1   mx-1 hover:bg-blue-700/60 hover:border-white">
+                        <p class="text-[14px] py-2 px-6 text-blue-700/50 font-bold hover:text-white"> علوم مالی و
+                            حسابداری </p>
+                    </div>
+
+                    <div class=" border-2 border-blue-700/50 rounded-4xl mt-1 hover:bg-blue-700/60 hover:border-white ">
+                        <p class="text-[14px] py-2 px-6 text-blue-700/50 font-bold hover:text-white"> هنر و سینما
+                        </p>
+                    </div>
+
+                </div>
+                <div class="w-full flex justify-end">
+                    <div
+                        class=" border-2 border-blue-700/50 rounded-4xl  mt-1   mx-1 hover:bg-blue-700/60 hover:border-white">
+                        <p class="text-[14px] py-2 px-6 text-blue-700/50 font-bold hover:text-white"> فرهنگ، ارتباط
+                            و رسانه </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- end-text-zir-navi-lg -->
+        </div>
+
+
+
+        <script src="js/main.js"></script>
+</body>
+
+</html>

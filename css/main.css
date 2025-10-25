@@ -1,0 +1,105 @@
+@font-face {
+    font-family:vazir ;
+    src: url("../fonts/Vazir-Regular.woff") format("woff");
+}
+@media all and (max-width: 991px) {
+    .searchtype_js{
+    width: 99%; height: 99vh;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 0;
+}
+    .search_in{
+    width: 90%; height: 40px;
+}
+.list_js{
+    width: 99%; height: 99vh;
+    background-color: rgba(255, 255, 255);
+    position: absolute;
+    top: 0;
+}
+}
+@media all and (min-width:768px) and (max-width:991px){
+
+    .delete{
+        display: block;
+    }
+}
+@media all and (min-width:500px) and (max-width:746px){
+
+    .delet{
+        display: block;
+    }
+}
+@media all and (min-width: 992px) {
+    .searchtype_js{
+    width: 99%; height: 99vh;
+    background-color: rgba(255, 255, 255, 0.674);
+    position: absolute;
+    top: 0;
+}
+.search_in{
+    width: 45%; height: 35px;
+}
+}
+
+body{
+    font-family: vazir;
+}
+.img_nav{
+    width: 109px ;
+    height: 75px;
+}
+.text_nav{
+    width: 32px;
+    height: 32px;
+    
+}
+.text_nav:hover{
+    border: 2px solid black;
+}
+.text_nav_a{
+      width: 115px;
+      height: 50px;
+      font-weight: bold;
+      transition: .2s 
+ease-in-out;
+}
+.text_nav_a:hover{
+    border-bottom: 2px solid rgb(48, 89, 255);
+     color: rgb(48, 89, 255) ;
+    box-shadow: 1px 0px 5px rgba(228, 228, 228, 0.896) ,-1px -0px 5px rgba(228, 228, 228, 0.896);
+}
+.text_dasteh:hover{
+    color: rgb(48, 89, 255) ;
+}
+.sub_nav{
+position: relative;
+}
+.ul_sub{
+margin-left: -25ch;
+}
+.li_sub{
+    background-color: rgb(255, 255, 255);
+    width: 340px;
+    height: 45px;
+    padding: 2px;
+
+}
+.a_sub{
+    font-size: 15px;
+    width: 100%;
+    height: 35px;
+
+}
+.a_sub:hover{
+    background-color: #ade4ffab;
+    border-radius: 5px;
+    border-bottom: 3px solid #6A89CC ;
+}
+.sub_d:hover .ul_sub{
+    display: block;
+}
+.li_sub_sub:hover .li_ul_sub{
+    display: block;
+}
