@@ -103,3 +103,10 @@ margin-left: -25ch;
 .li_sub_sub:hover .li_ul_sub{
     display: block;
 }
+.dokmehga{
+    width: 20px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: #6A89CC;
+    margin: 0px 5px ;
+}
