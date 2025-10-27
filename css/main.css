@@ -110,3 +110,6 @@ margin-left: -25ch;
     background-color: #6A89CC;
     margin: 0px 5px ;
 }
+.fil-img-dest-two{
+    filter:  grayscale(.95) invert(1) sepia(.2) drop-shadow(0px 4px 1px gray) grayscale(1);
+}

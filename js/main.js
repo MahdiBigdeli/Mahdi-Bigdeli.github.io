@@ -1102,7 +1102,4 @@ dokmeh[4].addEventListener("click", function () {
     dokmeh[4].classList.add("dokmehga")
 })
 
-
-
-
 // end-slid-img-zir-nav
