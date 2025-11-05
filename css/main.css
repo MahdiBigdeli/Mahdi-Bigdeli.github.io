@@ -110,6 +110,35 @@ margin-left: -25ch;
     background-color: #6A89CC;
     margin: 0px 5px ;
 }
+.dokmehga1{
+    width: 30px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: #6A89CC;
+    margin: 0px 5px ;
+}
 .fil-img-dest-two{
     filter:  grayscale(.95) invert(1) sepia(.2) drop-shadow(0px 4px 1px gray) grayscale(1);
+}
+.img-doreh{
+    transition: all 100ms ease 0s ;
+
+}
+.slider-doreh{
+    scrollbar-width: none;
+}
+.sun{
+    display: flex;
+}
+.so{
+    display: none;
+}
+.atloh{
+    border-bottom: 3px solid rgb(138, 138, 140);
+}
+.num_atlohA{
+   background-color: rgb(150, 169, 245);
+}
+.color-bg-end{
+    background-color: rgb(38, 50, 56);
 }
